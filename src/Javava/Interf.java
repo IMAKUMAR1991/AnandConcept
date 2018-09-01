@@ -42,6 +42,7 @@ interface Abc{
 		b1.kumar();
 		Abc a1 = new B22();
 		a1.Anand(12);
+		System.out.println(a1.Anand(13));
 		a1.kumar(23);
 		System.out.println(b1.getClass().getName());
 		System.out.println(a1.getClass().getName());
